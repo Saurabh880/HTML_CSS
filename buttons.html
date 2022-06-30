@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .subscribe-btn {
+        background-color: rgb(201, 0, 0);
+        color: aliceblue;
+        border: none;
+        height: 36px;
+        width: 100px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: opacity 0.31s;
+      }
+      /* to use hover property use the class name and then :hover property */
+      .subscribe-btn:hover {
+        opacity: 0.7;
+      }
+      .subscribe-btn:active {
+        opacity: 0.4;
+      }
+
+      .join-btn {
+        background-color: rgb(255, 255, 255);
+        border-color: darkcyan;
+        color: rgb(49, 130, 244);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        height: 34px;
+        width: 62px;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.12s;
+        margin-left: 10px;
+      }
+      /* shadow has 4 property ,horiztonal vertical position, blur and color measure with rgba->a means opacity */
+      .join-btn:hover {
+        background-color: rgb(49, 130, 244);
+        color: white;
+      }
+      .join-btn:active {
+        opacity: 0.6;
+      }
+      .tweet-btn {
+        background-color: #1d9bf0;
+        color: white;
+        border-radius: 20px;
+        height: 30px;
+        width: 60px;
+        border: none;
+        font-size: 13px;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      /* if we hover the style will activate */
+      .tweet-btn:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+      }
+      .Signup-btn {
+        border: none;
+        background-color: rgb(46, 164, 79);
+        color: white;
+        width: 78px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 13px;
+      }
+      .req-btn {
+        background-color: black;
+        color: white;
+        width: 110px;
+        height: 35px;
+      }
+    </style>
+    <button class="subscribe-btn">Subscribe</button>
+    <button class="join-btn">JOIN</button>
+    <button class="tweet-btn">Tweet</button>
+    <button class="Signup-btn">Sign up</button>
+    <button class="req-btn">Request now</button>
+  </body>
+</html>
