@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .nav-btn {
+        padding: 9px 8px 9px 8px;
+        margin: 2px 8px 2px 8px;
+      }
+      .search-result {
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 18px;
+      }
+      .btn-shadow {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 4px 8px 4px 8px;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .btn-shadow:active {
+        box-shadow: none;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+      .btn-stretch{
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 4px 9px 4px 9px;
+        cursor: pointer;
+        transition: padding 0.5s;
+      }
+      .btn-stretch:hover {
+        padding: 8px 18px 8px 18px;
+      }
+    </style>
+    <button class="nav-btn">Back</button>
+    <a href="" class="search-result">1</a>
+    <a href="" class="search-result">2</a>
+    <a href="" class="search-result">3</a>
+    <a href="" class="search-result">4</a>
+    <a href="" class="search-result">5</a>
+    <button class="nav-btn">Next</button>
+    <p>
+      <button class="btn-shadow">Shadow</button>
+    </p>
+  </body>
+  <p>
+    <button class="btn-stretch">Stretch</button>
+  </p>
+</body>
+</html>

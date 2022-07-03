@@ -12,8 +12,7 @@
         background-color: rgb(201, 0, 0);
         color: aliceblue;
         border: none;
-        height: 36px;
-        width: 100px;
+        padding: 9px 16px 9px 16px; /*top right bottom left */
         border-radius: 3px;
         cursor: pointer;
         transition: opacity 0.31s;
@@ -22,6 +21,7 @@
       .subscribe-btn:hover {
         opacity: 0.7;
       }
+      /* When a button is clicked active property works*/
       .subscribe-btn:active {
         opacity: 0.4;
       }
@@ -33,13 +33,19 @@
         border-style: solid;
         border-width: 1px;
         border-radius: 2px;
-        height: 34px;
+        /* height: 34px;
         width: 62px;
+        it's a bad practise to use the height and width bcuz it'll restrict the control and extra text will over flow */
         cursor: pointer;
+        /* transition take two values what you want to transition and how long */
         transition: background-color 0.5s, color 0.12s;
+        /* use margin to spacing outside the element - added space on the outside of element */
         margin-left: 10px;
+        margin-right: 10px;
+        /* spacing inisde of the element is called padding. we can use padding for each side. the element will resize with text*/
+        padding: 8px 10px 8px 10px;
       }
-      /* shadow has 4 property ,horiztonal vertical position, blur and color measure with rgba->a means opacity */
+
       .join-btn:hover {
         background-color: rgb(49, 130, 244);
         color: white;
@@ -51,8 +57,7 @@
         background-color: #1d9bf0;
         color: white;
         border-radius: 20px;
-        height: 30px;
-        width: 60px;
+        padding: 9px 10px 9px 10px;
         border: none;
         font-size: 13px;
         cursor: pointer;
@@ -60,6 +65,7 @@
       }
       /* if we hover the style will activate */
       .tweet-btn:hover {
+        /* shadow has 4 property :horiztonal position, vertical position, blur and color measure with rgba->a means opacity.  */
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
       }
       .Signup-btn {
